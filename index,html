@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Created 3x3 table -->
+    <table id="tb">
+        <tr>
+            <td><input type="number" id="input1" name="number" placeholder="num1"></td>
+            <td><input type="number" id="input2" name="number"  placeholder="num2"></td>
+            <td><input type="number" id="input3" name="number" placeholder="num3"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="input4" name="number"  placeholder="num4"></td>
+            <td><input type="number" id="input5" name="number"  placeholder="num5"></td>
+            <td><input type="number" id="input6" name="number"  placeholder="num6"></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="input7" name="number" placeholder="num7"></td>
+            <td><input type="number" id="input8" name="number"  placeholder="num8" ></td>
+            <td><input type="number" id="input9" name="number"  placeholder="num9"></td>
+        </table>
+        <!-- taken div tag to print the sum of all inputs of the table -->
+        <div id="div"></div>
+        <!-- Created two buttons, first one "add" to add all inputs and second one "delete" to delete the rows -->
+    <button id="btn1" onclick="javascript:Add()">Add</button>
+    <button id="btn2" onclick="javascript:Delete()">Delete</button>
+    <script src="script.js">
+    </script>
+</body>
+</html>
